@@ -12,10 +12,6 @@ from btfxwss import BtfxWss
 # python btfxwss_play.py "btcusd" "ltcusd" "ltcbtc" "ethusd" "ethbtc"
 sym_list = [sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5]]
 sym_list = [s.upper() for s in sym_list]
-for s in sym_list:
-    print (s)
-    print (type(s))
-
 
 def parse_ticker_data(sym, data):
     keys = ["bid", "bidSize", "ask", "askSize", "dailyChange", "dailyChangePer", "price", "volume", "high", "low"]
