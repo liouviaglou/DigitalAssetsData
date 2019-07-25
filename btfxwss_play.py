@@ -5,65 +5,82 @@
 import logging
 import time
 import sys
-
+from datetime import datetime
+import json
 from btfxwss import BtfxWss
+
+# python btfxwss_play.py "btcusd" "ltcusd" "ltcbtc" "ethusd" "ethbtc"
+sym_list = [sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5]]
+sym_list = [s.upper() for s in sym_list]
+for s in sym_list:
+    print (s)
+    print (type(s))
+
+
+def parse_ticker_data(sym, data):
+    keys = ["bid", "bidSize", "ask", "askSize", "dailyChange", "dailyChangePer", "price", "volume", "high", "low"]
+    data_dict = {k:r for k, r in zip(keys, data[0][0])}
+    data_dict["symbol"] = sym
+    data_dict["datetime"] = datetime.utcfromtimestamp(data[-1]).strftime('%Y-%m-%d-%H-%M-%S')
+    return data_dict
+
+def parse_trades_data(sym, data):
+    keys = ["seq", "id", "volume", "price"]
+    data_lst = []
+    for d in data[0][0]:
+        dct = {k:r for k, r in zip(keys, d)}
+        dct["symbol"] = sym
+        dct["datetime"] = datetime.utcfromtimestamp(data[-1]).strftime('%Y-%m-%d-%H-%M-%S')
+        del dct["seq"]
+        del dct["id"]
+        data_lst.append(dct)
+    return data_lst
+
     
-log = logging.getLogger(__name__)
-
-fh = logging.FileHandler('test.log')
-fh.setLevel(logging.DEBUG)
-sh = logging.StreamHandler(sys.stdout)
-sh.setLevel(logging.DEBUG)
-
-log.addHandler(sh)
-log.addHandler(fh)
-logging.basicConfig(level=logging.DEBUG, handlers=[fh, sh])
-    
-
 wss = BtfxWss()
 wss.start()
 
 while not wss.conn.connected.is_set():
     time.sleep(1)
+    
+def get_ticker(sym):
+    # Ticker: ticker feed
+    # Ticker: The ticker is a high level overview of the state of the market. 
+    # It shows you the current best bid and ask, as well as the last trade price. 
+    # It also includes information such as daily volume and how much the price
+    # has moved over the last day.
+    wss.subscribe_to_ticker(sym)
+    queue = wss.tickers(sym)
+    lst = queue.get()
+    dct = parse_ticker_data(sym,lst)
+    output = { key:value for key,value in dct.items() if key in ["symbol", "datetime", "price", "volume"]} 
+    wss.unsubscribe_from_ticker(sym)
+    return(output)
 
-# Subscribe to some channels
-wss.subscribe_to_ticker('BTCUSD')
-wss.subscribe_to_order_book('BTCUSD')
-
-# Do something else
-t = time.time()
-while time.time() - t < 10:
-    pass
-
-# Accessing data stored in BtfxWss:
-ticker_q = wss.tickers('BTCUSD')  # returns a Queue object for the pair.
-
-# print(ticker_q)
-
-# print(ticker_q.empty)
-
-# print(ticker_q.get())
-# (
-#     [[9677.4, 26.1702001, 
-#       9677.5, 26.6461616, , 
-#       -613.99382809, -0.0597, , 
-#       9676.00617191, 
-#       10491.7425515, , 
-#       10291, 
-#        9625]], 
-#       1563927913.537417
-# )
-
-trade_q = wss.trades('BTCUSD') 
-print (trade_q.get())
+def get_trades(sym):
+    # Trades: trade feed
+    # This channel sends a trade message whenever a trade occurs at Bitfinex. 
+    # It includes all the pertinent details of the trade, such as price, size and time.
+    wss.subscribe_to_trades(sym)
+    queue = wss.trades(sym)
+    lst = queue.get()
+    lst_dcts = parse_trades_data(sym,lst)
+    for l in lst_dcts:
+        l["is_buy"] = 1 if l["volume"]>0 else 0
+    output = lst_dcts
+    wss.unsubscribe_from_trades(sym)
+    return(output)
 
 
-# while not ticker_q.empty():
-#     print(ticker_q.get())
+sym_list_trades = []
 
-# Unsubscribing from channels:
-wss.unsubscribe_from_ticker('BTCUSD')
-wss.unsubscribe_from_order_book('BTCUSD')
+for sym in sym_list:
+    print("trying "+sym)
+    try:
+        sym_list_trades.append(get_trades(sym))   
+        print("success "+sym)
+    except:
+        print("error "+sym)
 
-# Shutting down the client:
-wss.stop()
+sym_list_trades = sum(sym_list_trades, [])
+print(sym_list_trades)

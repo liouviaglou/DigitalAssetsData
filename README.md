@@ -15,3 +15,9 @@ Note:Bitfinex will send you more data than requested above. Please don't include
 
 ## 07/23/19
 Using btfxwss. wss.ticker('xxxx').get() returns a list plus some additional values -- mapping to data in required output format
+
+## 07/24/19
+Executing a bid: https://github.com/Michshelle/bitcoinAPItrading/blob/f184c9b29506a9caee095bcf0802383085a2302a/DisturbingBid.py
+Other stuff: https://github.com/Michshelle/bitcoinAPItrading/blob/f184c9b29506a9caee095bcf0802383085a2302a/order_testing.py
+
+More info about channels: https://docs.bitfinex.com/docs/ws-public

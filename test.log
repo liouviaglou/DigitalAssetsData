@@ -34,3 +34,274 @@ DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'sy
 DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'book', 'symbol': 'BTCUSD'}
 INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
 INFO:btfxwss.queue_processor:Subscription succesful for channel ('book', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'book', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('book', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'book', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('book', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'book', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('book', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'book', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('book', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'book', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('book', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'book', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('book', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'book', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('book', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+ERROR:btfxwss.connection:10301: subscribe: dup
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Attempting to connect again in 10 seconds.
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:_on_open(): Connection reconnected, re-subscribing..
+INFO:btfxwss.connection:Initialized Client on API Version 2
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+ERROR:btfxwss.connection:10301: subscribe: dup
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+ERROR:btfxwss.connection:10301: subscribe: dup
+INFO:btfxwss.connection:Connection opened
+INFO:btfxwss.connection:Initialized Client on API Version 2
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'ticker', 'symbol': 'BTCUSD'}
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('ticker', 'BTCUSD')
+DEBUG:btfxwss.client:_subscribe: {'event': 'subscribe', 'channel': 'trades', 'symbol': 'BTCUSD'}
+ERROR:btfxwss.connection:10400: unsubscribe: invalid
+INFO:btfxwss.queue_processor:Subscription succesful for channel ('trades', 'BTCUSD')
+INFO:btfxwss.connection:Connection closed
